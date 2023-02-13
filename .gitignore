@@ -216,5 +216,5 @@ dist
 .yarn/build-state.yml
 .pnp.*
 
-
+.DS_store
 bin/
