@@ -44,6 +44,11 @@ dependencies {
     testImplementation 'org.mockito:mockito-core:4.11.0'
     testImplementation 'com.github.seeseemelk:MockBukkit-v1.19:2.144.3'
     testImplementation 'org.assertj:assertj-core:3.24.1'
+
+    // Test containers for pogger things :B
+    testImplementation "org.testcontainers:testcontainers:1.17.6"
+    testImplementation "org.testcontainers:mongodb:1.17.6"
+
 }
 
 // Jar shadowing task.
